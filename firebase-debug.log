@@ -1,0 +1,43 @@
+[debug] [2022-07-07T07:54:45.338Z] ----------------------------------------------------------------------
+[debug] [2022-07-07T07:54:45.340Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\fanuelt.MYAMOLE\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-07-07T07:54:45.340Z] CLI Version:   11.2.0
+[debug] [2022-07-07T07:54:45.340Z] Platform:      win32
+[debug] [2022-07-07T07:54:45.340Z] Node Version:  v16.15.0
+[debug] [2022-07-07T07:54:45.346Z] Time:          Thu Jul 07 2022 10:54:45 GMT+0300 (East Africa Time)
+[debug] [2022-07-07T07:54:45.346Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-07T07:54:45.412Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-07T07:54:45.413Z] > authorizing via signed-in user (bisie777@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project front-end-bisie. This may result in unexpected behavior. 
+[debug] [2022-07-07T07:54:45.486Z] [hub] writing locator at C:\Users\FANUEL~1.MYA\AppData\Local\Temp\hub-front-end-bisie.json
+[debug] [2022-07-07T07:54:45.804Z] > refreshing access token with scopes: []
+[debug] [2022-07-07T07:54:45.806Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-07-07T07:54:45.807Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-07-07T07:54:46.846Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-07-07T07:54:46.846Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-07-07T07:54:46.858Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/front-end-bisie/sites 
+[debug] [2022-07-07T07:54:49.261Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/front-end-bisie/sites 200
+[debug] [2022-07-07T07:54:49.261Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/front-end-bisie/sites {"sites":[{"name":"projects/front-end-bisie/sites/front-end-bisie","defaultUrl":"https://front-end-bisie.web.app","appId":"1:733866877843:web:69c41b6beb6a2cfb093e66","type":"DEFAULT_SITE"}]}
+[debug] [2022-07-07T07:54:49.261Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/front-end-bisie/webApps/1:733866877843:web:69c41b6beb6a2cfb093e66/config [none]
+[debug] [2022-07-07T07:54:50.851Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/front-end-bisie/webApps/1:733866877843:web:69c41b6beb6a2cfb093e66/config 200
+[debug] [2022-07-07T07:54:50.851Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/front-end-bisie/webApps/1:733866877843:web:69c41b6beb6a2cfb093e66/config {"projectId":"front-end-bisie","appId":"1:733866877843:web:69c41b6beb6a2cfb093e66","storageBucket":"front-end-bisie.appspot.com","apiKey":"AIzaSyCj1xRVvpCqpVRLosd7zltRgzsGr8GFGhI","authDomain":"front-end-bisie.firebaseapp.com","messagingSenderId":"733866877843","measurementId":"G-BH8QT0QC5Q"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ localhost:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-07-07T07:56:27.543Z] Received signal SIGHUP 1
